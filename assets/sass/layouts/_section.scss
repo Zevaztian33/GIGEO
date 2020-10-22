@@ -1,0 +1,46 @@
+section{
+    .perfil{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 120px;
+        align-items: center;
+        padding: 20px 50px;
+        justify-content: start;
+        
+        img{
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            }
+        
+        .datos{
+            padding: 0 20px;
+        }
+        
+        .boton{
+            display: flex;
+            justify-content: flex-end;
+            flex-grow: 1;
+
+            &__uno{
+                background-color: skyblue;
+                color: white;
+                border: none;
+                height: 50px;
+                width: 100px;
+                margin-right: 20px;
+            }
+    
+            &__dos{
+                background-color: palevioletred;
+                color: white;
+                border: none;
+                height: 50px;
+                width: 100px;
+                
+            }
+        }
+        
+    }
+}

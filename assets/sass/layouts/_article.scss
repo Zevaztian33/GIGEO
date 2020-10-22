@@ -1,0 +1,22 @@
+article{
+
+    h2{
+        padding: 20px 0 20px 130px;
+    }
+
+    .articulos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0;
+
+        .card{
+            margin: 10px;
+            font-size: 25px;
+            padding: 20px;
+            flex-basis: 300px;
+            border: none;
+        }
+    }
+}
